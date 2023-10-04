@@ -14,7 +14,7 @@ def available_books():
         print(book)
 
 # 1.2 TODO: Run the 'available_books' function
-# available_books()
+available_books()
 
 print('-----------------------')
 # 1.3 TODO: Create a function named 'check_out' that removes a book from the books list
@@ -28,7 +28,7 @@ def check_out(book_title):
 check_out('THE POWER OF MOMENTS')
 
 # 1.5 TODO: Run the 'available_books' function again to see if the book was checked out
-# available_books()
+available_books()
 
 print('-----------------------')
 # 1.6 TODO: Create a function 'check_in' that adds a book to the end of the books list
@@ -41,7 +41,7 @@ def check_in(book_title):
 check_in('THE POWER OF MOMENTS')
 
 # 1.8 TODO: Run the 'available_books' function to see if the book was checked in
-# available_books()
+available_books()
 
 print('-----------------------')
 # 1.9 TODO: Create a function 'search_by_name' that prints 'Available' if exists in books list, 'Not Available' if it doesn't.
