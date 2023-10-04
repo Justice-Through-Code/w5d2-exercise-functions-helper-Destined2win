@@ -8,6 +8,7 @@ import io
 from unittest import mock, TestCase
 
 from library import books, available_books, check_out, check_in, search_by_name, count_books, search_by_author
+from library import count_books, books_with_details
 
 
 class TestLibraryFunctions(TestCase):
